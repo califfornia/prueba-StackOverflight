@@ -1,1 +1,133 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --dark-blue:hsla(233, 26%, 24%, 1);
+    --lime-green:hsla(136, 65%, 51%, 1);
+    --bright-cyan:hsla(192, 70%, 51%, 1);
+    --grey:hsla(220, 16%, 96%, 1);
+    --text-color:hsla(233, 8%, 62%, 1);
+    --white: hsla(0, 0%, 100%, 1);
+    --gradient-color: linear-gradient(270deg, var(--bright-cyan) 0%, var(--lime-green) 100%);
+    --background-color: hsla(0, 0%, 98%, 1);
+
+    box-sizing: border-box;
+
+    font-family: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+
+    background: var(--background-color);
+
+}
+
+body{
+    margin: 0;
+}
+
+.bg-conteiner{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+
+.btn{
+    font-family: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+    font-weight: 700;
+    color: var(--white);
+    background: var(--gradient-color);
+    display: flex;
+    width: 165px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background: linear-gradient(90deg, #77E09B -3.57%, #73D1DF 100%);
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    color: var(--dark-blue);
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: -0.55px;
+    margin-block-start: 0;
+    margin-block-end: 0; 
+}
+
+h2{
+    color: var(--dark-blue);
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h3{
+    color: var(--dark-blue);
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h4{
+    color: var(--dark-blue);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.32px;
+    margin-block-start: 0;
+    margin-block-end: 0; 
+}
+
+p{
+    color: var(--text-color);
+    margin-block-end: 0;
+}
+
+.p1{
+    color: var(--text-color);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 146%; /* 27.74px */
+    letter-spacing: -0.76px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.p2{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 146%; /* 27.74px */
+    letter-spacing: -0.76px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.p3{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 131%; /* 18.34px */
+    letter-spacing: -0.7px;    
+    margin-block-start: 0;
+    margin-block-end: 0; 
+}
+
+.p4{
+    color: var(--text-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 131%; /* 13.1px */
+    letter-spacing: -0.2px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
